@@ -1,0 +1,226 @@
+* {
+  margin: 0%;
+  background-color: #ffffff;
+}
+
+.symbol {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.inputsOut {
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.inputsIn {
+  display: inline-block;
+  text-align: justify;
+  width: 333px;
+}
+
+#mainTitle {
+
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+
+  color: #1D8FF2;
+}
+
+#subTitle {
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: #A0AEC0;
+}
+
+.Email,
+.password {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.textID,
+.textPW {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: #5FAAD9;
+}
+
+#id,
+#pw {
+  padding: 0px 20px;
+  width: 100%;
+  height: 44px;
+
+  background: #FFFFFF;
+
+  border: 1px solid #E2E8F0;
+  box-sizing: border-box;
+  border-radius: 15px;
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: #A0AEC0;
+}
+
+.rememberMe {
+  padding-bottom: 40px;
+}
+
+/* 로그인 유지 slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  width: 13.5px;
+  height: 13.5px;
+  left: 4px;
+  top: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked+.slider {
+  background-color: #FD5D5D;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(13px);
+}
+
+/* 로그인 유지 */
+.keepLoggedIn {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  cursor: pointer;
+
+  color: #2D3748;
+}
+
+#loginButton {
+  /* button */
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px 8px;
+  width: 100%;
+  height: 40px;
+
+  background: #1E90FF;
+  border-radius: 12px;
+  border: 0;
+  outline: none;
+
+  /* Text */
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: #FFFFFF;
+
+  /* identical to box height, or 15px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+#subArea {
+  margin: 3px;
+  text-align: right;
+  overflow: auto;
+}
+
+.findIDPW {
+  float: left;
+}
+
+#findID,
+#findPW {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+
+  text-decoration: none;
+
+  color: #B4B4B4;
+}
+
+#dot {
+  color: #B4B4B4;
+}
+
+#signUp {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+
+  text-decoration: none;
+  float: right;
+
+  color: #B4B4B4;
+}
+
+#findID:hover,
+#findPW:hover,
+#signUp:hover {
+  text-decoration: underline;
+}

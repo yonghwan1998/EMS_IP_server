@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/logo_ico_green.png" />
+  <link rel="stylesheet" href="/login.css">
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="/login.js" defer></script>
+  <title>로그인 페이지</title>
+</head>
+
+<body>
+  <div class="symbol">
+    <img id="symbol" src="/logo_130_white.png" alt="" width="200px" height="200px">
+  </div>
+  <div class="inputsOut">
+    <div class="inputsIn">
+      <div class="title">
+        <p id="mainTitle">Silver Care</p>
+        <!-- <p id="subTitle">Main Title Eng</p> -->
+      </div>
+      <div class="form">
+        <form class="login-form">
+          <div class="Email">
+            <div class="textID">아이디</div>
+            <input id="id" type="text" placeholder="아이디">
+          </div>
+          <div class="password">
+            <div class="textPW">비밀번호</div>
+            <input id="pw" type="password" placeholder="비밀번호">
+          </div>
+          <div class="rememberMe">
+            <label class="switch">
+              <input type="checkbox" id="keep" value="off">
+              <span class="slider"></span>
+            </label>
+            <label for="keep" class="keepLoggedIn">로그인 유지</label>
+          </div>
+          <div>
+            <button id="loginButton" type="button">로그인</button>
+          </div>
+          <div id="subArea">
+            <span class="findIDPW">
+              <a id="findID" href="/findID">아이디</a>
+              <span id="dot">
+                &middot;
+              </span>
+              <a id="findPW" href="/findPW">비밀번호 찾기</a>
+            </span>
+            <a id="signUp" href="signUp">회원가입</a>
+          </div>
+          <div>
+            <a href="/">루트 페이지로 가기</a>
+            <a href="/testPage">테스트 페이지</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div>
+
+    </div>
+  </div>
+</body>
+
+</html>

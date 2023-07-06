@@ -1,0 +1,326 @@
+* {
+  margin: 0%;
+  background-color: #f9f9f9;
+}
+
+#body {
+  overflow: auto;
+  width: auto;
+}
+
+header,
+nav,
+footer,
+section {
+  margin: 5px;
+  padding: 10px;
+}
+
+/* header */
+#header {
+  display: flex;
+  align-items: center;
+}
+
+#logoIMG {
+  width: 50px;
+  height: 50px;
+}
+
+#logoText {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  margin-left: 10px;
+
+  /* color: #1A4D2E; */
+  color: #1E90FF;
+}
+
+/* line */
+#line {
+  width: 233.25px;
+  height: 1px;
+  left: 6.5px;
+  top: 94.5px;
+
+  border: none;
+
+  background: linear-gradient(to right, #E5E5E5, #777 20%, #777 80%, #E5E5E5);
+}
+
+/* navigation bar */
+#nav {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 233.25px;
+  height: auto;
+}
+
+#menu,
+#accountProfile {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#menuChatting {
+  display: flex;
+  align-items: center;
+  width: 219.5px;
+  height: 55px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+  border-radius: 15px;
+}
+
+#menuChattingLink {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  background-color: #ffffff;
+  text-decoration-line: none;
+}
+
+#menuChattingIMG {
+  width: 30px;
+  height: 30px;
+
+  background: #4FD1C5;
+  border-radius: 12px;
+}
+
+#menuChattingText {
+  margin-left: 12px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #ffffff;
+  color: #2D3748;
+}
+
+#link2,
+#link3,
+#menuLogout,
+#link5,
+#link6,
+#link7 {
+  display: flex;
+  align-items: center;
+  width: 219.5px;
+  height: 55px;
+
+  background-color: #f9f9f9;
+  box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+  border-radius: 15px;
+}
+
+#link2Link,
+#link3Link,
+#menuLogoutLink,
+#link5Link,
+#link6Link,
+#link7Link {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  background-color: #f9f9f9;
+  text-decoration-line: none;
+}
+
+#link2IMG,
+#link3IMG,
+#menuLogoutIMG,
+#link5IMG,
+#link6IMG,
+#link7IMG {
+  width: 30px;
+  height: 30px;
+
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+#link2Text,
+#link3Text,
+#menuLogoutText,
+#link5Text,
+#link6Text,
+#link7Text {
+  margin-left: 12px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #f9f9f9;
+  color: #A0AEC0;
+}
+
+#p1 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-left: 18px;
+
+  color: #2D3748;
+}
+
+#needHelpIMG {
+  left: 17px;
+  top: 594.5px;
+  margin-top: 197px;
+
+  background: #4FD1C5;
+  border-radius: 15px;
+}
+
+/* section */
+section {
+  display: flex;
+  float: left;
+  width: auto;
+}
+
+/* article */
+article {
+  width: 90%;
+  margin: 20px;
+}
+
+/* 메인 */
+#main {
+  margin: auto;
+  border-radius: 20px;
+  text-align: right;
+  width: 500px;
+  height: 800px;
+}
+
+/* 채팅 영역 */
+#chat {
+  height: 90%;
+  width: 100%;
+  overflow-y: auto;
+  border-radius: 20px;
+
+  background-color: #9DCDB8;
+}
+
+#text {
+  width: 443px;
+  border-radius: 5px;
+}
+
+#sendButton {
+  background-color: #FFF33E;
+  color: #867009;
+  border: solid;
+  border-color: #EFEA4A;
+  border-width: 2px;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+/* 접속 알림 */
+.connect {
+  width: 92%;
+  margin: auto;
+  background-color: aquamarine;
+  text-align: center;
+  margin-top: 10px;
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* 접속 종료 알림 */
+.disconnect {
+  width: 92%;
+  margin: auto;
+  background-color: indianred;
+  text-align: center;
+  margin-top: 10px;
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* 내가 보낸 메시지 */
+.me {
+  width: 90%;
+  margin: auto;
+  background-color: #FFEB33;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: right;
+
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+/* 상대방이 보낸 메시지 */
+.other {
+  width: 90%;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: left;
+
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+#streaming {
+  width: 700px;
+  height: 500px;
+  background-color: #777;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #dedede;
+  color: #777;
+  font-size: 12px;
+  text-align: center;
+  line-height: 50px;
+  clear: both;
+}

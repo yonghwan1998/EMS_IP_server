@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>채팅 페이지</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/logo_ico_green.png" />
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400" rel="stylesheet">
+  <link rel="stylesheet" href="/chatting.css">
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="/chatting.js" defer></script>
+</head>
+
+<body>
+  <div id="body">
+    <!-- header -->
+    <header id="header">
+      <img id="logoIMG" src="/logo_50_white.png" alt="">
+      <span id="logoText">Silver Care</span>
+    </header>
+    <!-- line -->
+    <hr id="line">
+    </hr>
+    <!-- navigation bar -->
+    <nav id="nav">
+      <ul id="menu">
+        <li id="menuChatting">
+          <a id="menuChattingLink" href="/chatting">
+            <img id="menuChattingIMG" src="/menuChatting_blue.png" alt="">
+            <span id="menuChattingText">채팅</span>
+          </a>
+        </li>
+        <!-- <li id="link2">
+          <a id="link2Link" href="/chatting">
+            <img id="link2IMG" src="/Rectangle_2.png" alt="">
+            <span id="link2Text">link2</span>
+          </a>
+        </li>
+        <li id="link3">
+          <a id="link3Link" href="/chatting">
+            <img id="link3IMG" src="/Rectangle_2.png" alt="">
+            <span id="link3Text">link3</span>
+          </a>
+        </li> -->
+        <li id="menuLogout">
+          <a id="menuLogoutLink" href="/logout">
+            <img id="menuLogoutIMG" src="/menuLogout_white.png" alt="">
+            <span id="menuLogoutText">로그아웃</span>
+          </a>
+        </li>
+      </ul>
+      <ul id="accountProfile">
+        <p id="p1">ACCOUNT PAGES</p>
+        <li id="link5">
+          <a id="link5Link" href="/chatting">
+            <img id="link5IMG" src="/Rectangle_2.png" alt="">
+            <span id="link5Text">거주지 변경</span>
+          </a>
+        </li>
+        <li id="link6">
+          <a id="link6Link" href="/chatting">
+            <img id="link6IMG" src="/Rectangle_2.png" alt="">
+            <span id="link6Text">비밀번호 재설정</span>
+          </a>
+        </li>
+        <li id="link7">
+          <a id="link7Link" href="/chatting">
+            <img id="link7IMG" src="/Rectangle_2.png" alt="">
+            <span id="link7Text">회원탈퇴</span>
+          </a>
+        </li>
+        <li id="needHelp">
+          <img id="needHelpIMG" src="/Rectangle_3.png" alt="" width="218px" height="169.5px">
+          <a id="needHelpLink" href="/chatting">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- section -->
+    <section>
+      <!-- chatting article -->
+      <article>
+        <div id="main">
+          <div id="chat">
+          </div>
+          <div id="textLine">
+            <input type="text" id="text" placeholder="메시지를 입력해주세요">
+            <button id="sendButton" onclick="send()">전송</button>
+          </div>
+        </div>
+      </article>
+      <!-- streaming artticle -->
+      <!-- <article>
+        <div id="streaming"></div>
+      </article> -->
+    </section>
+    <!-- footer -->
+    <footer>footer</footer>
+  </div>
+
+</body>
+
+</html>

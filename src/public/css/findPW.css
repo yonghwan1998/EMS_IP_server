@@ -1,0 +1,127 @@
+* {
+  margin: 0%;
+  background-color: #ffffff;
+}
+
+.symbol {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.symbol:hover {
+  cursor: pointer;
+}
+
+.inputsOut {
+  text-align: center;
+  margin-top: 30px;
+  width: auto;
+  height: auto;
+}
+
+.inputsIn {
+  display: inline-block;
+  padding: 20px;
+
+  border: #BABABA;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 12px;
+}
+
+#findPW {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.id,
+.tel,
+.elderTel,
+.verificationCode {
+  width: 30px;
+  margin: 5px;
+}
+
+#id,
+#tel,
+#elderTel,
+#verificationCode {
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 284px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#sendButton {
+  width: 250px;
+  height: 30px;
+  background: #1E90FF;
+
+  border-radius: 12px;
+  border: 0;
+  outline: none;
+  margin: 24px;
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 150%;
+  color: #FFFFFF;
+
+  visibility: visible;
+  cursor: pointer;
+}
+
+#submitButton {
+  width: 250px;
+  height: 30px;
+  background: #1E90FF;
+
+  border-radius: 12px;
+  border: 0;
+  outline: none;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 0px;
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 150%;
+  color: #FFFFFF;
+
+  cursor: pointer;
+  display: none;
+}
+
+#account {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  color: #B4B4B4;
+  margin-top: 24px;
+}
+
+#goFindID {
+  text-decoration: none;
+  color: #92B4EC;
+}
+
+#goFindID:hover {
+  text-decoration: underline;
+}
+
+input {
+  margin-top: 10px;
+}

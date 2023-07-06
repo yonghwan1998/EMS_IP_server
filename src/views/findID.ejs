@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/logo_ico_green.png" />
+  <link rel="stylesheet" href="/findID.css">
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="/findID.js" defer></script>
+  <title>아이디찾기 페이지</title>
+</head>
+
+<body>
+  <div class="symbol">
+    <a href="./login">
+      <img id="symbol" src="/logo_130_white.png" alt="" width="150px" height="150px">
+    </a>
+  </div>
+  <div class="inputsOut">
+    <span class="inputsIn">
+      <div class="findID">
+        <p id="findID">아이디 찾기</p>
+      </div>
+      <form class="findID-form">
+        <div class="tel">
+          <input type="tel" id="tel" placeholder="보호자 전화번호" />
+        </div>
+        <div class="elderTel">
+          <input type="tel" id="elderTel" placeholder="피보호자 전화번호" />
+        </div>
+        <div>
+          <button id="submitButton" type="button">아이디 찾기</button>
+        </div>
+        <div>
+          <p id="pw">비밀번호를 찾고 계신가요? <a id="goFindPW" href="./findPW">비밀번호 찾기</a></p>
+        </div>
+      </form>
+    </span>
+  </div>
+</body>

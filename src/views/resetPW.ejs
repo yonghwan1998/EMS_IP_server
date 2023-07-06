@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/logo_ico_green.png" />
+  <link rel="stylesheet" href="/resetPW.css">
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="/resetPW.js" defer></script>
+  <title>비밀번호 재설정 페이지</title>
+</head>
+
+<body>
+  <div class="symbol">
+    <a href="./login">
+      <img id="symbol" src="/logo_130_white.png" alt="" width="150px" height="150px">
+    </a>
+  </div>
+  <div class="inputsOut">
+    <span class="inputsIn">
+      <div class="resetPW">
+        <p id="resetPW">비밀번호 재설정</p>
+      </div>
+      <form class="resetPW-form">
+        <div class="newPassword">
+          <input type="password" id="newPassword" placeholder="비밀번호" />
+        </div>
+        <div class="confirmPassword">
+          <input type="password" id="confirmPassword" placeholder="비밀번호 확인" />
+        </div>
+        <div>
+          <button id="submitButton" type="button">비밀번호 변경</button>
+        </div>
+        <div>
+          <p id="account">아이디를 찾고 계신가요? <a id="goFindID" href="./findID">아이디 찾기</a></p>
+        </div>
+      </form>
+    </span>
+  </div>
+</body>
+
+</html>

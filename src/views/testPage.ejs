@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/logo_ico_green.png" />
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="/testPage.js" defer></script>
+  <title>테스트 페이지</title>
+</head>
+
+<body>
+  <div class="symbol">
+    <a href="./login">
+      <img id="symbol" src="/logo_130_white.png" alt="" width="150px" height="150px">
+    </a>
+  </div>
+  <div class="inputsOut">
+    <span class="inputsIn">
+      <div class="signUp">
+        <p id="signUp">회원가입</p>
+      </div>
+      <form class="signUp-form">
+
+
+        <input type="text" id="sample6_postcode" placeholder="우편번호">
+        <input type="button" id="Btn" value="우편번호 찾기"><br>
+        <input type="text" id="sample6_address" placeholder="주소"><br>
+        <input type="text" id="sample6_detailAddress" placeholder="상세주소">
+        <input type="text" id="sample6_extraAddress" placeholder="참고항목">
+
+        <div>
+          <button id="signUpButton" type="button">회원가입</button>
+          <p id="account">이미 계정을 갖고 계신가요? <a id="goLogin" href="./login">지금 로그인하기</a></p>
+        </div>
+      </form>
+    </span>
+  </div>
+</body>
+
+</html>

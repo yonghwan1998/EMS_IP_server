@@ -1,0 +1,139 @@
+* {
+  margin: 0%;
+  background-color: #ffffff;
+}
+
+.symbol {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.symbol:hover {
+  cursor: pointer;
+}
+
+.inputsOut {
+  text-align: center;
+  margin-top: 30px;
+  width: auto;
+  height: auto;
+}
+
+.inputsIn {
+  display: inline-block;
+  padding: 20px;
+
+  border: #BABABA;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 12px;
+}
+
+#signUp {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+#detailedAddress {
+  margin-top: 5px;
+}
+
+#signUpNameIMG,
+#signUpIDIMG,
+#signUpPWIMG,
+#signUpPWConfirmIMG,
+#signUpTelIMG,
+#signUpElderTelIMG,
+#signUpAddressIMG {
+  width: 20px;
+  height: 20px;
+}
+
+.name,
+.id,
+.password,
+.passwordConfirm,
+.tel,
+.elderTel,
+.detailedAddress {
+  width: 30px;
+  margin: 5px;
+}
+
+.address {
+  width: 254px;
+  margin: 5px;
+}
+
+#name,
+#id,
+#password,
+#passwordConfirm,
+#tel,
+#elderTel,
+#address,
+#detailedAddress {
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 284px;
+}
+
+#address {
+  margin-top: 5px;
+  cursor: default;
+}
+
+#postcode {
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 100px;
+}
+
+#postcodeButton {
+  width: 110px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#signUpButton {
+  width: 250px;
+  height: 30px;
+  background: #1E90FF;
+
+  border-radius: 12px;
+  border: 0;
+  outline: none;
+  margin: 24px;
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 150%;
+  color: #FFFFFF;
+
+  cursor: pointer;
+}
+
+#account {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  color: #B4B4B4;
+}
+
+#goLogin {
+  text-decoration: none;
+  color: #92B4EC;
+}
+
+#goLogin:hover {
+  text-decoration: underline;
+}
